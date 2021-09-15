@@ -1,0 +1,157 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header section  */
+header{
+    margin-bottom: 50px;
+}
+
+
+/* common section */
+.half-width{
+    width: 50%;
+}
+.container{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Volkhov', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.full-web{
+    margin: auto;
+    width: 1024px;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+i{
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px;
+    color: darkturquoise;
+}
+/* menu section */
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 1000;
+    color: black;
+}
+nav ul li a:hover{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* banner section  */
+.banner{
+    display: flex;
+    
+}
+.banner img{
+    width: 100%;
+}
+.banner-text{
+    margin-left: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.banner h1{
+    font-size: 70px;
+    line-height: 70px;
+}
+.banner a{
+    color: white;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 15px;
+  
+}
+/* whether section  */
+.service{
+    display: flex;
+    align-items: flex-end;
+}
+.service img{
+    margin-top: 30px;
+}
+.rome img{
+    /* height: 300px;
+    width: 300px; */
+    width: 100%;
+}
+
+.rome{
+    
+    /* margin-left: 20px; */
+    border-radius: 10px;
+}
+.place{
+    display: flex;
+    justify-content: center;
+   
+}
+/* brand section */
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* subscribe section */
+
+.subscribe{
+    width: auto;
+    height: 300px;
+    background-color: rgb(211, 205, 205);
+    border-radius: 10px;
+}
+.subscribe-text{
+    text-align: center;
+    padding-top: 50px;
+}
+.subscribe input{
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+}
+button{
+    color: white;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 0;
+  
+}
+/* footer  section*/
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
