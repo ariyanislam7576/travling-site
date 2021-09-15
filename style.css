@@ -1,4 +1,6 @@
-
+*{
+  scroll-behavior: smooth;  
+}
 body{
     margin: 0;
     padding: 0;
@@ -102,21 +104,31 @@ nav ul li a:hover{
 .service img{
     margin-top: 30px;
 }
-.rome img{
-    /* height: 300px;
-    width: 300px; */
-    width: 100%;
-}
 
-.rome{
-    
-    /* margin-left: 20px; */
-    border-radius: 10px;
-}
+/* place section */
 .place{
     display: flex;
     justify-content: center;
    
+}
+.rome img{
+    width: 100%;
+} 
+
+/* booking section  */
+.booking{
+    display: flex;
+    align-items: flex-start;
+}
+.booking-step{
+    display: flex;
+    align-items: flex-start;
+}
+.booking-img{
+    margin-left: 15px;
+    border: 2px solid rgb(226, 223, 28);
+    border-radius: 15px;
+    padding-bottom: 45px;
 }
 /* brand section */
 .brand{
@@ -155,3 +167,4 @@ footer{
     display: flex;
     justify-content: space-evenly;
 }
+
